@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <nav class="navbar">
+    <div class="logo">MyBrand</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="site.html">Tour-site</a></li>
+      <li><a href="offer.html">Services</a></li>
+      <li><a href="review.html">Review</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+<section class="rate">
+  <h2>SERVICE RATING & REVIEWS</h2>
+
+    <div class="star">
+      <h1> 4.35</h1>
+      <p> ★★★★☆<br><span>(1,297 Reviews)</span></p>
+    </div>
+
+  </section>
+  <section class="both">
+    <div class="rivcan">
+      <div>
+      <p><b>Service Quality</b></p>
+      <div class="straight">
+       <div class="two"> <strong>95%</strong> <span>Average; <strong>Great</strong></span></div>
+        <div class="bar">
+    <div class="fill" style="width: 95%;"></div>
+  </div>
+      </div></div>
+
+
+      <div>
+      <p><b>Staff Behaviour</b></p>
+      <div class="straight">
+       <div class="two"> <strong>90%</strong> <span>Average; <strong>Great</strong></span></div>
+        <div class="bar">
+    <div class="fill" style="width: 90%;"></div>
+  </div>
+      </div></div>
+
+
+      <div>
+      <p><b>Visitors Satisfactory</b></p>
+      <div class="straight">
+       <div class="two"> <strong>95%</strong> <span>Average; <strong>Great</strong></span></div>
+        <div class="bar">
+    <div class="fill" style="width: 95%;"></div>
+  </div>
+      </div></div>
+
+
+
+      <div>
+      <p><b>Professionality</b></p>
+      <div class="straight">
+       <div class="two"> <strong>75%</strong> <span>Average; <strong>Good</strong></span></div>
+        <div class="bar">
+    <div class="fill" style="width: 75%;"></div>
+  </div>
+      </div></div>
+
+
+
+      <div>
+      <p><b>Service Evaluation</b></p>
+      <div class="straight">
+       <div class="two"> <strong>80%</strong> <span>Average; <strong>Great</strong></span></div>
+        <div class="bar">
+    <div class="fill" style="width: 80%;"></div>
+  </div>
+      </div></div>
+
+    </div><!--end of rating card-->
+
+
+    <div class="rivcan">
+
+      <div class="comment">
+        <div class="profilepic"><img src="images/uniik.JPG" alt=""></div>
+        <div class="profileinfo">
+          <div class="open"><b>Robert Karma</b> <span>Nov 01,2025</span></div>
+          <p>I was impressed by how friendly and professional the staff were, always ready to help, explain things clearly, and treat visitors with respect throughout my entire stay at the site..</p>
+          <div class="open"><b>4.3 ★★★★☆</b>  <button class="like-btn" onclick="likeReview(this)">
+    👍 Like <span class="count">5.5k</span>
+  </button></div>
+        </div>
+      </div>
+
+
+<div class="comment">
+        <div class="profilepic"><img src="images/uniik.JPG" alt=""></div>
+        <div class="profileinfo">
+          <div class="open"><b>Nana Yaw</b> <span>Nov 01,2025</span></div>
+          <p>I left the tourist site feeling very satisfied with the experience, learning new things, enjoying the environment, and confidently recommending the destination to friends, family, and other travelers</p>
+          <div class="open"><b>4.3 ★★★★☆</b>  <button class="like-btn" onclick="likeReview(this)">
+    👍 Like <span class="count">2.6k</span>
+  </button></div>
+        </div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</section>
+ <footer>  © 2025 xxxxxxxxx. All rights reserved.</footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+
+
+
+
+<script>
+function likeReview(button) {
+  let count = button.querySelector(".count");
+  count.innerText = parseInt(count.innerText) + 1;
+}
+</script>
+  
+</body>
+</html>

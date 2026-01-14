@@ -1,0 +1,711 @@
+.{
+  margin:0 ;
+  padding:0 ;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+/* Navbar styling */
+.navbar {
+  position: fixe;
+  top:0 ;
+  left:0 ;
+  width: ;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  z-index: ;
+  
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #00bcd4;
+}
+
+/* Menu icon for mobile */
+.menu-icon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* HOMEPAGE*/
+
+.home{
+  border: px solid blue;
+  height: 500px;
+  background-image: url(images/IMG_4577.JPG);
+  color: rgba(253, 251, 249, 0.979);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.homebutton{
+  border: px solid;
+  padding: 20px 50px;
+  display: flex;
+  gap: 20px;
+
+}
+
+.tg{
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: transparen;
+  background: transparent;
+  backdrop-filter: BLUR(10px);
+
+}
+
+/*  ABOUT-PAGE*/
+ .about{
+  border: px solid red;
+  min-height: 500px;
+ }
+ .about h1{
+  text-align: center;
+ }
+ .hold{
+  border: px solid;
+  min-height: 400px;
+  padding: 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 50px;
+ }
+
+ .abouttext{
+  border: px solid;
+  width: 45%;
+  min-height: 300px;
+  text-align: left;
+  
+  
+
+ }
+ .abouttext img{
+  width: 100%;
+  min-height: 100%;
+ }
+
+ /* PURPOSE AND FUNCTIONS */
+ .function h1{
+  text-align: center;
+ }
+
+ .list{
+  border: 1px solid;
+  background-color: rgba(10, 136, 247, 0.925);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px white;
+  border-radius: 10px;
+  border: transparent;
+ }
+
+ .list li{
+  border: 1px solid;
+  padding: 5px;
+  background-color: white;
+  border: transparent;
+  border-radius: 5px;
+ }
+
+ ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+
+
+ }
+
+ .explore{
+  border: px solid ;
+  min-height: 400px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .card{
+  border: 1px solid;
+  padding: 5px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(10, 136, 247, 0.925);
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 1px 1px 6px;
+ }
+
+ .card button{
+  border-radius: 2px;
+  border: transparent;
+  box-shadow: 1px 1px 5px;
+ }
+
+ .card span{
+  color: rgba(247, 241, 241, 0.534);
+ }
+
+ .circle{
+  border: px solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: -1px -1px 5px white;
+
+ }
+
+ .circle img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+ }
+
+
+ /*  PAGE TWO     */
+
+ .bodycan{
+  border: px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+
+ .can{
+   border: 1px solid;
+   min-height: 400px;
+   padding: 20px;
+   width: 300px;
+   border: transparent;
+ }
+ .pic{
+  border: px solid;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px;
+  background-color: white;
+
+
+ }
+
+ .pic img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+ }
+
+ .downdiv{
+  border: 1px solid;
+  display: flex;
+  padding: 7px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: transparent;
+  box-shadow: 2px 1px 5px;
+  border-radius: 25px;
+  background-color: white;
+ }
+
+ .downdiv p{
+  color: rgba(0, 0, 0, 0.349);
+ }
+ .downdiv span{
+  color: black;
+  font-size: 20px;
+ }
+
+ .se{
+  border: 1px solid;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: rgb(0, 119, 255);
+  border: transparent;
+  box-shadow: 4px 4px 5px;
+ }
+
+
+
+ /* PAGE THREE */
+
+ .callcan{
+  border: px solid red;
+  min-height: 400px;
+  padding:20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+
+  
+
+ }
+
+ .contact{
+  border: 1px solid;
+  min-height: 400px;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-radius: 2px 5px 5px 2px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.267);
+  border: transparent;
+  background-color: rgba(241, 239, 239, 0.959);
+  background-color: rgb(10, 150, 231);
+ }
+  .cc{
+  color: rgb(10, 150, 231);
+ }
+
+ .first{
+  border: px solid;
+  min-height: 60px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+ }
+
+ .nnm{
+  border: 1px solid;
+  height: 40px;
+  width: 45%;
+  padding: 10px;
+  border-radius: 2px 5px 5px 2px;
+  box-shadow: 4px 4px 80px rgba(0, 0, 0, 0.267);
+  border: transparent;
+ }
+
+ .mess{
+  border: 1px solid;
+  height: 150px;
+  border-radius: 2px 5px 5px 2px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.267);
+  border: transparent;
+  text-align: center;
+  
+
+ }
+
+ .sub{
+  height: 50px;
+  background-color: rgba(223, 104, 24, 0.986);
+  width: 300px;
+  border: transparent;
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+ }
+
+ /*  PAGE FOUR     */
+
+ .choose{
+  border: px solid red;
+  min-height: 500px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.199);
+  
+ }
+ .maincan{
+  border: 1px solid blue;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 10px;
+  border: transparent;
+ }
+ 
+
+ .minorcan{
+  border: 1px solid;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: transparent;
+  box-shadow: 4px 4px 8px rgba(12, 12, 12, 0.205);
+  background-color: white;
+ }
+
+ .minorcan1{
+  border: 1px solid;
+  background-color: rgba(5, 119, 250, 0.966);
+  color: white;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: transparent;
+  box-shadow: 4px 4px 8px rgba(12, 12, 12, 0.205);
+ }
+
+ .minorlogo{
+  border: 1px solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: transparent;
+  box-shadow: 4px 4px 8px rgba(12, 12, 12, 0.205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+ }
+
+ .minorlogo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+ }
+
+
+
+
+ .teamcan{
+  border: 1px solid;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 30px;
+  box-shadow: 1px 1px 5px white;
+  border: transparent;
+  background-color: white;
+
+ }
+
+ .teamcan span{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.384);
+ }
+
+ .teamlogo{
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.11);
+  width: 100px;
+  height: 100px;
+  border-radius: 100% 100% 100% 0%;
+  border: transparent;
+  box-shadow: 4px 4px 8px rgba(12, 12, 12, 0.205);
+ }
+
+ .teamlogo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+ }
+
+
+ .media{
+  border: 1px solid;
+  background-color: rgba(0, 0, 0, 0.11);
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: transparent;
+  box-shadow: 4px 4px 8px rgba(12, 12, 12, 0.205);
+  background-image: url(images/tick.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+
+ /* page five */
+  .rate{
+    border: px solid;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .star{
+    border: px solid;
+    padding:0px 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+   }
+   .star h1{
+    font-size: 40px;
+   }
+
+    .star p{
+      font-size: 40px;
+      color: rgb(247, 182, 5);
+    }
+
+    .star span{
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.404);
+    }
+
+    .both{
+      border: px solid blue;
+      min-height: 400px;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 10px;
+    }
+
+    .rivcan{
+      border: px solid green;
+      padding: 10px;
+      min-height: 300px;
+      width: 45%;
+    }
+
+    .straight{
+      border: 1px solid;
+      padding: 15px;
+      height: 50px;
+      background-color: white;
+      border-radius: 5px;
+      border: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: cente;
+    }
+
+    .bar {
+  width: 100%;
+  height: 17px;
+  background: #ddd;
+  border-radius: 10px;
+}
+
+    .fill {
+  height: 100%;
+  background: linear-gradient(rgb(233, 73, 10)); /* gold color */
+  border-radius: 10px;
+}
+
+.two{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.two strong{
+  color: #f45900;
+}
+
+
+.comment{
+  border: 1px solid;
+  min-height: 100px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  border: transparent;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.profilepic{
+  border: px solid;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.profilepic img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.profileinfo b{
+  color: blue;
+}
+
+.profileinfo span{
+  color: rgba(0, 0, 0, 0.336);
+}
+
+
+.profileinfo{
+  border: px solid;
+  padding: 5px;
+  width: ;
+  
+}
+
+.open{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.like-btn {
+  background: #f7f6f3;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: blue;
+}
+
+.like-btn:hover {
+  background: #1294eb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  border: px solid;
+  height: 40px;
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: wheat;
+  text-align: center;
+}
+
+
+ 
+
+
+ @media screen and (max-width: 768px) {
+  .abouttext{
+    width: 90%;
+  }
+   .nnm{
+    width: 100%;
+   }
+
+   .contact{
+    width: 95%;
+   }
+
+   /*NAVBAR */
+    .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    background: #111;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+    gap: 15px;
+    padding: 20px 0;
+    background: transparent;
+    backdrop-filter: blur(15px);
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+  .rivcan{
+    width: 95%;
+  }
+  .bar{
+    height: 9px;
+  }
+
+  
+  
+
+ }
